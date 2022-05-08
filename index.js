@@ -38,6 +38,11 @@ function promptManager(){
     return inquirer.prompt([
         {
             type: "input",
+            name: "managerName",
+            message: "What is the Manager's name?"
+        },
+        {
+            type: "input",
             name: "managerID",
             message: " Input manger's ID."
 
@@ -108,17 +113,17 @@ function promptIntern(){
         {
             type: "input",
             name: "internID",
-            message: "Input the Inturns ID."
+            message: "Input the Interns ID."
         },
         {
             type: "input",
             name: "internEmail",
-            message: " Input the Inturns Email."
-        },
+            message: " Input the Interns Email."
+        }, 
         {
             type: "input",
             name: "internSchool",
-            message: "Input the Inturns school."
+            message: "Input the Interns school."
         },
     ])
     .then((answers) =>{
