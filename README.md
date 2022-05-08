@@ -6,3 +6,5 @@ Because this application won’t be deployed, you’ll also need to provide a li
 This Challenge will combine many of the skills you’ve learned over the first ten weeks of this course. To help you get started, we’ve provided some guidelines in addition to the User Story and Acceptance Criteria.
 
 Your application should use Jest (Links to an external site.) for running the unit tests and Inquirer (Links to an external site.) for collecting input from the user. 
+
+https://drive.google.com/file/d/154YFcD0E8gNxTRCdlkIxRdsRx0V2Xxhm/view
